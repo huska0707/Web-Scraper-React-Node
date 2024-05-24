@@ -39,3 +39,5 @@ app.get("/api/v1/items", function (req, res) {
 app.listen(PORT, () => {
   console.log("Server running on port " + PORT);
 });
+
+scrapeStaticWebpage();
